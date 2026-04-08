@@ -38,7 +38,7 @@ y_pred = clf.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("Classification Report:\n", classification_report(y_test, y_pred))
 
-bearer_token = 'AAAAAAAAAAAAAAAAAAAAAGJjuAEAAAAAWHKY9MYWIWHNfuhEJ0tW7AVMHsQ%3DnCQGudvvzG3MCG1USo87pN5WwQni1lEKD2jYSG8gWEFfom1Big'
+bearer_token = 'your token here'
 
 client = tweepy.Client(bearer_token=bearer_token)
 
